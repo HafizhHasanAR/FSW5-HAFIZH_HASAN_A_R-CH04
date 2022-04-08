@@ -1,0 +1,425 @@
+/* Author : Hafizh Hasan Alauddin radialGradient
+Kelas  : FSW-5 ( Challange-3)*/
+
+header{
+    background-color: #F1F3FF !important;
+
+}
+header, body {
+    font-family: Helvetica ;
+}
+.bg-primary {
+    width: 100px;
+    height: 34px;
+    background-color: #0D28A6 !important;
+}
+.bg_button {
+    background-color: #5CB85F;
+
+    
+}
+.btn-canva {
+    width: 90px;
+}
+.btn-serch {
+  width: 100px;
+}
+.navbar-light {
+    background-color: #F1F3FF !important;
+}
+.btn_button {
+    background-color: #5CB85F;
+}
+.img-fluid{
+  
+  position: relative;
+  left: 115px;
+  top: 18px;
+}
+
+
+
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+}
+
+.testimonial-name {
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    line-height: 0px;
+}
+.testimonial-media {
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 50%;
+}
+.testimonial-media:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+.bg_get{
+    background-color: #0D28A6;
+    border-radius: 13px !important;
+}
+.f-link {
+    text-decoration: none;
+    color: black;
+    width: 79px;
+}
+
+.section-4 {
+    padding: 50px 0;
+    overflow: hidden;
+  }
+  .title-2 {
+    font-size: 24px;
+    color: #151515;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+  }
+  .description {
+    font-size: 14px;
+    color: #151515;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 16px;
+  }
+  .owl-carousel {
+    overflow: hidden;
+  }
+  
+  .owl-carousel .owl-item img {
+    width: auto;
+  }
+ 
+
+  
+  .owl-nav {
+    margin: 24px 0 0;
+    text-align: center;
+  }
+  
+  .owl-carousel .owl-nav button.owl-next,
+  .owl-carousel .owl-nav button.owl-prev {
+    margin: 0 3px;
+    height: 32px;
+    width: 32px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4 !important;
+    border-radius: 50px;
+    
+    
+  }
+  
+  .owl-carousel .owl-nav button.owl-next:hover,
+  .owl-carousel .owl-nav button.owl-prev:hover {
+    background: #5CB85F;
+    /* border: none; */
+  }
+  
+  .bg-testimonial {
+    overflow: hidden;
+    position: relative;
+    background-color: #e3d9ff;
+    width: 100%;
+    height: 270px;
+    border-radius: 8px;
+  }
+  
+  .img-testimonial {
+     width: 80px !important;
+    height: 80px !important; 
+    
+  }
+  .img-testimonial-2 {
+    width: 80px !important;
+   height: 80px !important;
+   position: relative; 
+   left: 40px;
+   
+ }
+  
+ 
+   .star   {
+    
+    margin-bottom: 8px;
+    
+  } 
+  
+  
+  
+  .desc-testi {
+    position: relative;
+    float: left;
+    text-align: left;
+    padding-right: 32px;
+  }
+  
+  .desc-testi p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .user-testi {
+    position: relative;
+    float: left;
+    text-align: left;
+  }
+  
+  .user-testi p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  .offcanvas-end {
+    top: 0;
+    right: 0;
+    width: 194px;
+    border-left: 1px solid rgba(0,0,0,.2);
+    transform: translateX(100%);
+}
+
+.rectangle2 {
+  position: relative;
+  z-index: 1;
+  width: 966px;
+  height: 106px;
+  left: 199px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  top: -30px;
+}
+
+.rectangle {
+  position: absolute;
+  width: 50%;
+  height: 205px;
+  background: #0D28A6;
+  right: 0;
+  bottom: 0;
+  border-radius: 55px 0 0 0;
+  z-index: 1;
+}
+
+.type-driver{
+margin-left: 20px;
+margin-top: 25px;
+
+/* Text S/Light */
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+
+/* Neutral/04 */
+color: #3C3C3C;
+}
+
+.pickup-time{
+    margin-left: -5px;
+    margin-top: 25px;
+    
+    /* Text S/Light */
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    
+    
+    /* Neutral/04 */
+    color: #3C3C3C;
+}
+
+
+.date-rent{
+margin-left: -5px;
+margin-top: 25px;
+
+/* Text S/Light */
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+
+/* Neutral/04 */
+color: #3C3C3C;
+}
+
+.passenger{
+  margin-left: -5px;
+margin-top: 25px;
+
+/* Text S/Light */
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+
+/* Neutral/04 */
+color: #3C3C3C;
+}
+
+.form-group{
+  width: 185px;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+.form-group-date{
+  width: 185px;
+  margin-left: -5px;
+  margin-top: -10px;
+}
+
+.form-group-time{
+  width: 185px;
+  margin-left: -5px;
+  margin-top: -10px;
+}
+
+.form-group-passenger{
+  width: 180px;
+  margin-left: -5px;
+  margin-top: -10px;
+}
+
+.form-control{
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  color: #8A8A8A;
+
+}
+
+
+
+
+
+
+@media (max-width : 800px){
+
+    .img-fluid{
+      position: relative;
+      left: 50px;
+    }
+    .why_us_h2 , .why_us_p {
+        text-align: center;
+    }
+    .nv-utama {
+        position: relative;
+        top: -70px !important;
+    }
+    h1{
+        font-size: 3em;
+    }
+    .img-testimonial{
+      position: relative;
+      left: 168px;
+      bottom: 60px;
+    }
+    .img-testimonial-2{
+      position: relative;
+      left: 180px;
+      bottom: 60px;
+    }
+
+    .bg-testimonial{
+      height: 400px;
+    }
+    .owl_body {
+      position: relative;
+      top: 80px;
+      right: 40px;
+    }
+    .star{
+      position: relative;
+      left: 130px;
+      
+
+
+    }
+    
+}
+
+
+
+@media (max-width : 414px){
+  .img-fluid{
+    position: relative;
+    left: 1px;
+  }
+  .img-testimonial{
+    position: relative;
+    left: 163px;
+    bottom: 60px;
+  }
+  .img-testimonial-2{
+    position: relative;
+    left: 179px;
+    bottom: 60px;
+  }
+
+  .bg-testimonial{
+    height: 400px;
+  }
+  .owl_body {
+    position: relative;
+    top: 80px;
+    right: 26px;
+  }
+  .star{
+    position: relative;
+    left: 105px;
+    
+  }
+  .footer_btn{
+    position: relative;
+    top: 10px;
+  }
+}
+
+@media (max-width : 375px) {
+  .owl_body{
+    top: 90px;
+    right: 10px;
+  }
+  .star{
+    position: relative;
+    left: 78.5px;
+  }
+  .img-testimonial{
+    
+    left: 144px;
+  
+  }
+  .img-testimonial-2{
+    
+    left: 156px;
+
+  }
+  
+}

@@ -1,0 +1,13 @@
+
+1.) Masuk terminal ubuntu directory file disimpan.
+
+2.) ====> yarn install (Kalau belum install Yarn)
+3.) ====> yarn start
+=====================================================
+
+Jika di ubuntu belum terinstall nodejs
+====> sudo apt update
+====> sudo apt install nodejs
+
+====> sudo apt install nodejs
+
